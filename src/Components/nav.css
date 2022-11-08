@@ -1,0 +1,32 @@
+header{
+    height: 80vh;
+}
+.navbar{
+    width: 90%;
+    /* padding: 0% 2%; */
+    margin: 0% auto;
+    /* position: fixed; */
+
+}
+.head{
+    margin-top: 6% ;
+}
+.mint{
+    width: 70%;
+    margin: 5% auto;
+    /* display: none; */
+}
+.card{
+    margin: 0% auto;
+}
+
+
+@media only screen and (max-width: 575px) {
+    #cool {
+        display: none;
+    }
+    .head{
+        margin-top: 10%;
+        display: none;
+    }
+}
